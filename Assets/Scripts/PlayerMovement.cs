@@ -9,22 +9,23 @@ public class PlayerMovement : MonoBehaviour
     public GameObject foodProjectil;
     public Transform shootPoint;
 
-    
+    void Start(){
+    }
 
     // Update is called once per frame
     void Update()
     {
-        if(Input.GetKey(KeyCode.D))
+        if(Input.GetKey(KeyCode.A))
         {
           Movement(Vector3.right);  
         }
 
-        if(Input.GetKey(KeyCode.A))
+        if(Input.GetKey(KeyCode.D))
         {
             Movement(Vector3.left);
         }
 
-        if(Input.GetKey(KeyCode.Space))
+        if(Input.GetKeyUp(KeyCode.Space))
         {
             Shoot();
         }

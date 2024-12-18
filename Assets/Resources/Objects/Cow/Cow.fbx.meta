@@ -3,7 +3,12 @@ guid: 17ebb65de380b3347a7bd854e0fed04c
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert1
+    second: {fileID: 2100000, guid: 186977775ba96a34386dc33afc1b4469, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
@@ -24,7 +29,7 @@ ModelImporter:
     animationDoRetargetingWarnings: 0
     importAnimatedCustomProperties: 0
     importConstraints: 0
-    animationCompression: 1
+    animationCompression: 3
     animationRotationError: 0.5
     animationPositionError: 0.5
     animationScaleError: 0.5
@@ -64,7 +69,7 @@ ModelImporter:
     isReadable: 0
   meshes:
     lODScreenPercentages: []
-    globalScale: 100
+    globalScale: 10
     meshCompression: 0
     addColliders: 0
     useSRGBMaterialColor: 1
@@ -111,7 +116,287 @@ ModelImporter:
   humanDescription:
     serializedVersion: 3
     human: []
-    skeleton: []
+    skeleton:
+    - name: Cow(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: SA_Animals_Bull_Black
+      parentName: Cow(Clone)
+      position: {x: 1.2176099e-24, y: -5.32907e-18, z: -3.5527126e-18}
+      rotation: {x: -0.000000037748947, y: -3.024387e-39, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: CowRig
+      parentName: Cow(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.000000037748947, y: 0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: CowRig_SHJntGrp
+      parentName: CowRig
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: CowRig_ROOTSHJnt
+      parentName: CowRig_SHJntGrp
+      position: {x: -3.9443047e-34, y: 0.018711166, z: -0.0010000004}
+      rotation: {x: -0.7071068, y: 0.0000012697884, z: 0.0000012697884, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: CowRig_Spine_01SHJnt
+      parentName: CowRig_ROOTSHJnt
+      position: {x: -2.6999177e-24, y: 0.00021602822, z: 0.005289007}
+      rotation: {x: 0.49171725, y: 0.49171382, z: -0.50815123, w: 0.50814766}
+      scale: {x: 0.99999994, y: 1, z: 0.99999994}
+    - name: CowRig_Spine_02SHJnt
+      parentName: CowRig_Spine_01SHJnt
+      position: {x: -0.006258605, y: 3.681172e-17, z: -0.000010356172}
+      rotation: {x: 6.2272833e-15, y: -0.000000022351745, z: -0.000000021496536, w: 1}
+      scale: {x: 1, y: 0.99999994, z: 0.99999994}
+    - name: CowRig_Spine_03SHJnt
+      parentName: CowRig_Spine_02SHJnt
+      position: {x: -0.0064663687, y: 1.4210855e-17, z: -0.0000035251974}
+      rotation: {x: 2.63678e-15, y: -0.000000023283068, z: -0.000000021496536, w: 1}
+      scale: {x: 1, y: 1, z: 0.99999994}
+    - name: CowRig_Spine_TopSHJnt
+      parentName: CowRig_Spine_03SHJnt
+      position: {x: -0.008275755, y: 1.1368684e-16, z: 0.00005597472}
+      rotation: {x: -0.000000021493577, y: 0.016433943, z: -0.000000021493587, w: 0.999865}
+      scale: {x: 1, y: 1, z: 1}
+    - name: CowRig_l_Clavicle_01_01SHJnt
+      parentName: CowRig_Spine_TopSHJnt
+      position: {x: -7.6435797e-10, y: -0.0009673912, z: -0.000000001956412}
+      rotation: {x: -0.000000015805078, y: -0.000000015805062, z: 0.7071068, w: 0.7071067}
+      scale: {x: 1, y: 1, z: 1}
+    - name: CowRig_l_FrontLeg_HipSHJnt
+      parentName: CowRig_l_Clavicle_01_01SHJnt
+      position: {x: -0.0036131088, y: 0.0000000010618311, z: 0.0017474066}
+      rotation: {x: -0.6467043, y: 0.088013925, z: 0.10217063, w: 0.7507251}
+      scale: {x: 1, y: 1, z: 1}
+    - name: CowRig_l_FrontLeg_Knee1SHJnt
+      parentName: CowRig_l_FrontLeg_HipSHJnt
+      position: {x: -0.010075149, y: -6.621502e-10, z: -9.03553e-10}
+      rotation: {x: -0.015659748, y: 0.02667756, z: -0.11141387, w: 0.99329257}
+      scale: {x: 0.99999994, y: 1, z: 1}
+    - name: CowRig_l_FrontLeg_Knee2SHJnt
+      parentName: CowRig_l_FrontLeg_Knee1SHJnt
+      position: {x: -0.0045438865, y: 2.9731093e-10, z: -1.9421403e-10}
+      rotation: {x: 1.5519663e-15, y: -0.038044825, z: 1.8054194e-15, w: 0.99927604}
+      scale: {x: 1, y: 1, z: 1}
+    - name: CowRig_l_FrontLeg_AnkleSHJnt
+      parentName: CowRig_l_FrontLeg_Knee2SHJnt
+      position: {x: -0.004246488, y: -1.8782399e-10, z: 8.191836e-10}
+      rotation: {x: -5.389022e-16, y: -0.02728108, z: 1.6287054e-15, w: 0.9996278}
+      scale: {x: 1, y: 1, z: 1}
+    - name: CowRig_l_FrontLeg_BallSHJnt
+      parentName: CowRig_l_FrontLeg_AnkleSHJnt
+      position: {x: -0.0023760411, y: 2.933847e-10, z: 0.00034353897}
+      rotation: {x: 1.26048015e-14, y: 0.7071067, z: -1.2604798e-14, w: 0.7071069}
+      scale: {x: 1, y: 0.99999976, z: 1}
+    - name: CowRig_l_FrontLeg_ToeSHJnt
+      parentName: CowRig_l_FrontLeg_BallSHJnt
+      position: {x: -0.0021864674, y: -9.274027e-10, z: -0.0013599981}
+      rotation: {x: 4.958117e-15, y: -0.000000072643175, z: 0.000000092592465, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: CowRig_l_FrontLeg_ToeSHJnt_end
+      parentName: CowRig_l_FrontLeg_ToeSHJnt
+      position: {x: -0, y: 0.0025749234, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: CowRig_r_Clavicle_01_01SHJnt
+      parentName: CowRig_Spine_TopSHJnt
+      position: {x: -0.0000000010151591, y: 0.0009673913, z: -0.0000000019646582}
+      rotation: {x: -0.000000015805078, y: -0.000000015805062, z: 0.7071068, w: 0.7071067}
+      scale: {x: 1, y: 1, z: 1}
+    - name: CowRig_r_FrontLeg_HipSHJnt
+      parentName: CowRig_r_Clavicle_01_01SHJnt
+      position: {x: 0.0036131088, y: 8.9523394e-10, z: 0.0017474066}
+      rotation: {x: -0.08801125, y: 0.64670366, z: 0.7507264, w: 0.102167994}
+      scale: {x: 1, y: 1, z: 1}
+    - name: CowRig_r_FrontLeg_Knee1SHJnt
+      parentName: CowRig_r_FrontLeg_HipSHJnt
+      position: {x: -0.010075149, y: -6.6215033e-10, z: -5.2695853e-10}
+      rotation: {x: 0.015659584, y: 0.026677296, z: 0.111413844, w: 0.99329257}
+      scale: {x: 0.99999994, y: 1, z: 1}
+    - name: CowRig_r_FrontLeg_Knee2SHJnt
+      parentName: CowRig_r_FrontLeg_Knee1SHJnt
+      position: {x: -0.0045438865, y: -1.7952634e-10, z: 6.710512e-10}
+      rotation: {x: 6.2495287e-16, y: -0.038044825, z: 2.4164846e-15, w: 0.99927604}
+      scale: {x: 1, y: 1, z: 1}
+    - name: CowRig_r_FrontLeg_AnkleSHJnt
+      parentName: CowRig_r_FrontLeg_Knee2SHJnt
+      position: {x: -0.004246488, y: -1.8782409e-10, z: 7.305371e-10}
+      rotation: {x: 3.1142863e-16, y: -0.02728108, z: 2.295087e-15, w: 0.9996278}
+      scale: {x: 1, y: 1, z: 1}
+    - name: CowRig_r_FrontLeg_BallSHJnt
+      parentName: CowRig_r_FrontLeg_AnkleSHJnt
+      position: {x: -0.0023760411, y: -6.602897e-10, z: 0.00034353934}
+      rotation: {x: 1.0789757e-14, y: 0.7071067, z: -1.0789754e-14, w: 0.7071069}
+      scale: {x: 1, y: 0.99999976, z: 1}
+    - name: CowRig_r_FrontLeg_ToeSHJnt
+      parentName: CowRig_r_FrontLeg_BallSHJnt
+      position: {x: -0.0021864655, y: 3.2113298e-11, z: -0.0013599981}
+      rotation: {x: 3.9329243e-15, y: -0.000000072643175, z: 0.00000009259246, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: CowRig_r_FrontLeg_ToeSHJnt_end
+      parentName: CowRig_r_FrontLeg_ToeSHJnt
+      position: {x: -0, y: 0.0025749234, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: CowRig_Neck_01SHJnt
+      parentName: CowRig_Spine_TopSHJnt
+      position: {x: -0.002086263, y: 1.4566128e-16, z: -0.0007834167}
+      rotation: {x: -0.00000005237623, y: -0.2418584, z: -0.00000007744265, w: 0.9703116}
+      scale: {x: 1, y: 0.99999994, z: 1}
+    - name: CowRig_Neck_02SHJnt
+      parentName: CowRig_Neck_01SHJnt
+      position: {x: -0.0018384526, y: 4.9737993e-17, z: -0.000020564556}
+      rotation: {x: 1.887379e-15, y: -0.000000022351742, z: -2.1760371e-14, w: 1}
+      scale: {x: 1, y: 1, z: 0.99999994}
+    - name: CowRig_Neck_TopSHJnt
+      parentName: CowRig_Neck_02SHJnt
+      position: {x: -0.0022471182, y: 8.526512e-17, z: 0.000009898185}
+      rotation: {x: -1.0547136e-15, y: 0.0016046861, z: 3.8857848e-16, w: 0.99999875}
+      scale: {x: 0.99999994, y: 1, z: 0.99999994}
+    - name: CowRig_Head_JawSHJnt
+      parentName: CowRig_Neck_TopSHJnt
+      position: {x: -0.0032544183, y: 1.4210856e-16, z: 0.007950004}
+      rotation: {x: -0.17279108, y: -0.1727911, z: 0.6856699, w: 0.68566996}
+      scale: {x: 0.99999994, y: 1.0000001, z: 1.0000002}
+    - name: CowRig_Head_JawEndSHJnt
+      parentName: CowRig_Head_JawSHJnt
+      position: {x: 8.625106e-11, y: 0.00023742008, z: 0.002894097}
+      rotation: {x: 0.6116249, y: 0.000000011789037, z: -0.000000009113921, w: 0.7911479}
+      scale: {x: 1, y: 0.9999999, z: 0.99999994}
+    - name: CowRig_Head_JawEndSHJnt_end
+      parentName: CowRig_Head_JawEndSHJnt
+      position: {x: -0, y: 0.0029038223, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: CowRig_Head_TopSHJnt
+      parentName: CowRig_Neck_TopSHJnt
+      position: {x: -0.0030000014, y: -8.526512e-17, z: -9.53674e-10}
+      rotation: {x: -0.000000021073438, y: -0.00000003161013, z: 0.7071068, w: 0.7071067}
+      scale: {x: 1, y: 1, z: 1}
+    - name: CowRig_l_Eye_01SHJnt
+      parentName: CowRig_Head_TopSHJnt
+      position: {x: -0.0035146482, y: 0.00037612027, z: 0.00062849105}
+      rotation: {x: 0.5948027, y: -0.041563887, z: -0.038944136, w: 0.80185133}
+      scale: {x: 1, y: 0.99999994, z: 1}
+    - name: CowRig_l_Eye_01SHJnt_end
+      parentName: CowRig_l_Eye_01SHJnt
+      position: {x: -0, y: 0.0035901542, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: CowRig_r_Eye_01SHJnt
+      parentName: CowRig_Head_TopSHJnt
+      position: {x: 0.0035146482, y: 0.00037611992, z: 0.00062849186}
+      rotation: {x: 0.04156381, y: -0.5948026, z: 0.8018514, w: -0.038944114}
+      scale: {x: 0.99999994, y: 1, z: 1}
+    - name: CowRig_r_Eye_01SHJnt_end
+      parentName: CowRig_r_Eye_01SHJnt
+      position: {x: -0, y: 0.0035901545, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: CowRig_l_HindLeg_HipSHJnt
+      parentName: CowRig_ROOTSHJnt
+      position: {x: -0.0050481525, y: -0.001, z: -0.00021755794}
+      rotation: {x: 0.45164043, y: -0.45531666, z: 0.51715875, w: 0.56679314}
+      scale: {x: 1, y: 1, z: 1}
+    - name: CowRig_l_HindLeg_Knee1SHJnt
+      parentName: CowRig_l_HindLeg_HipSHJnt
+      position: {x: -0.008552185, y: -1.2943546e-10, z: 2.7092786e-10}
+      rotation: {x: -8.4395224e-16, y: -0.34492323, z: -1.026063e-15, w: 0.9386309}
+      scale: {x: 1, y: 1, z: 1}
+    - name: CowRig_l_HindLeg_Knee2SHJnt
+      parentName: CowRig_l_HindLeg_Knee1SHJnt
+      position: {x: -0.005912659, y: -3.8681294e-10, z: 0.0000000022676376}
+      rotation: {x: -4.1789247e-17, y: 0.28470236, z: -8.548708e-16, w: 0.95861596}
+      scale: {x: 1, y: 0.99999994, z: 1}
+    - name: CowRig_l_HindLeg_AnkleSHJnt
+      parentName: CowRig_l_HindLeg_Knee2SHJnt
+      position: {x: -0.0048131673, y: 3.003683e-10, z: -0.0000000012172745}
+      rotation: {x: 0.004820091, y: 0.68863267, z: 0.0348613, w: 0.72425586}
+      scale: {x: 1, y: 1, z: 1}
+    - name: CowRig_l_HindLeg_BallSHJnt
+      parentName: CowRig_l_HindLeg_AnkleSHJnt
+      position: {x: -0.002711918, y: -5.347643e-10, z: 0.00036663536}
+      rotation: {x: -7.576286e-13, y: 0.70710486, z: 7.5763343e-13, w: 0.70710874}
+      scale: {x: 1, y: 1, z: 1}
+    - name: CowRig_l_HindLeg_ToeSHJnt
+      parentName: CowRig_l_HindLeg_BallSHJnt
+      position: {x: -0.005048154, y: 0.000000005526693, z: -0.018672714}
+      rotation: {x: 0.50132936, y: -0.4986671, z: -0.5013265, w: -0.49866998}
+      scale: {x: 1, y: 1, z: 1}
+    - name: CowRig_l_HindLeg_ToeSHJnt_end
+      parentName: CowRig_l_HindLeg_ToeSHJnt
+      position: {x: -0, y: 0.019343069, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: CowRig_r_HindLeg_HipSHJnt
+      parentName: CowRig_ROOTSHJnt
+      position: {x: 0.0050481525, y: -0.001, z: -0.00021755794}
+      rotation: {x: 0.45531672, y: -0.4516403, z: 0.56679326, w: 0.5171588}
+      scale: {x: 1, y: 1, z: 1}
+    - name: CowRig_r_HindLeg_Knee1SHJnt
+      parentName: CowRig_r_HindLeg_HipSHJnt
+      position: {x: -0.008552185, y: -1.2943546e-10, z: 2.0590929e-10}
+      rotation: {x: -8.4413334e-16, y: -0.34492323, z: -1.0260899e-15, w: 0.9386309}
+      scale: {x: 1, y: 1, z: 1}
+    - name: CowRig_r_HindLeg_Knee2SHJnt
+      parentName: CowRig_r_HindLeg_Knee1SHJnt
+      position: {x: -0.0059126606, y: 5.6686145e-10, z: -8.371264e-10}
+      rotation: {x: -4.070371e-17, y: 0.28470236, z: -8.55546e-16, w: 0.95861596}
+      scale: {x: 1, y: 0.99999994, z: 1}
+    - name: CowRig_r_HindLeg_AnkleSHJnt
+      parentName: CowRig_r_HindLeg_Knee2SHJnt
+      position: {x: -0.004813168, y: 3.0036837e-10, z: -0.000000003156217}
+      rotation: {x: -0.004820212, y: 0.6886325, z: -0.034861337, w: 0.7242559}
+      scale: {x: 1, y: 1, z: 1}
+    - name: CowRig_r_HindLeg_BallSHJnt
+      parentName: CowRig_r_HindLeg_AnkleSHJnt
+      position: {x: -0.0027119182, y: -5.3476423e-10, z: 0.00036663536}
+      rotation: {x: -4.6930537e-13, y: 0.70710486, z: 4.6930835e-13, w: 0.70710874}
+      scale: {x: 1, y: 1, z: 1}
+    - name: CowRig_r_HindLeg_ToeSHJnt
+      parentName: CowRig_r_HindLeg_BallSHJnt
+      position: {x: -0.0020815793, y: -1.3056223e-16, z: -0.001325202}
+      rotation: {x: 1.2258908e-21, y: 0.00000001303829, z: -1.70763e-16, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: CowRig_r_HindLeg_ToeSHJnt_end
+      parentName: CowRig_r_HindLeg_ToeSHJnt
+      position: {x: -0, y: 0.0024676172, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: CowRig_Tail_01_01SHJnt
+      parentName: CowRig_ROOTSHJnt
+      position: {x: -7.2395535e-17, y: 0.0026850984, z: -0.001331789}
+      rotation: {x: -0, y: -0.7071067, z: 0, w: 0.7071068}
+      scale: {x: 1, y: 0.99999994, z: 1}
+    - name: CowRig_Tail_01_02SHJnt
+      parentName: CowRig_Tail_01_01SHJnt
+      position: {x: -0.0025047972, y: -0.0016330853, z: 1.09488196e-10}
+      rotation: {x: 0.000000030908623, y: -7.4823e-16, z: 0.7071068, w: 0.7071067}
+      scale: {x: 1, y: 1, z: 1}
+    - name: CowRig_Tail_01_03SHJnt
+      parentName: CowRig_Tail_01_02SHJnt
+      position: {x: -0.0043279678, y: 0.0000000010308125, z: 1.8918134e-10}
+      rotation: {x: -5.293956e-23, y: -1.7763568e-15, z: -5.293956e-23, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: CowRig_Tail_01_04SHJnt
+      parentName: CowRig_Tail_01_03SHJnt
+      position: {x: -0.0046762456, y: -6.721309e-10, z: 2.0440513e-10}
+      rotation: {x: -5.293956e-23, y: -1.7763568e-15, z: -5.293956e-23, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: CowRig_Tail_01_05SHJnt
+      parentName: CowRig_Tail_01_04SHJnt
+      position: {x: -0.00467214, y: -4.6790527e-10, z: 2.0422564e-10}
+      rotation: {x: -3.5527137e-15, y: -1.7763567e-15, z: -7.366575e-38, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: CowRig_Tail_01_05SHJnt_end
+      parentName: CowRig_Tail_01_05SHJnt
+      position: {x: -0, y: 0.0046721385, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
     armTwist: 0.5
     foreArmTwist: 0.5
     upperLegTwist: 0.5
@@ -119,16 +404,16 @@ ModelImporter:
     armStretch: 0.05
     legStretch: 0.05
     feetSpacing: 0
-    globalScale: 1
+    globalScale: 0.099999994
     rootMotionBoneName: 
     hasTranslationDoF: 0
-    hasExtraRoot: 0
+    hasExtraRoot: 1
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
   autoGenerateAvatarMappingIfUnspecified: 1
   animationType: 2
   humanoidOversampling: 1
-  avatarSetup: 0
+  avatarSetup: 1
   addHumanoidExtraRootOnlyWhenUsingAvatar: 1
   importBlendShapeDeformPercent: 1
   remapMaterialsIfMaterialImportModeIsNone: 0
