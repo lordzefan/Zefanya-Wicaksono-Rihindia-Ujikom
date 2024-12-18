@@ -7,7 +7,7 @@ public class SpawnAnimal : MonoBehaviour
     public GameObject[] animalPrefebs;
     public Transform spawnPosition;
 
-    public float spawnRangeX = 10f;
+    public float spawnRangeX = 20f;
     public float spawnInterfal = 2f;
 
     // Start is called before the first frame update

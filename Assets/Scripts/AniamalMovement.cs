@@ -16,8 +16,8 @@ public class AniamalMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        transform.Translate(Vector3.back * moveSpeed * Time.deltaTime);
-        if(transform.position.z <destroyAnimal)
+        transform.Translate(Vector3.forward * moveSpeed * Time.deltaTime);
+        if(transform.position.z >destroyAnimal)
         {
             Destroy(gameObject);
         }
